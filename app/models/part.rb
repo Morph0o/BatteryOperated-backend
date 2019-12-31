@@ -1,4 +1,4 @@
 class Part < ApplicationRecord
-    has_many :projectparts
-    has_many :projects, through: :projectparts
+    has_many :project_parts
+    has_many :projects, through: :project_parts
 end
